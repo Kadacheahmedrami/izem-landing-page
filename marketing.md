@@ -1,10 +1,10 @@
-# GiGi Energy Drink - Gen Z Landing Page
+# IZEM Energy Drink - Algerian Power Fuel Landing Page
 
 ## Title
-**GiGi Energy - Modern Gen Z Energy Drink Landing Page with Lenis Smooth Scroll & Framer Motion**
+**IZEM Energy - Modern Algerian Energy Drink Landing Page with Lenis Smooth Scroll & Framer Motion**
 
 ## Description
-A bold, premium energy drink landing page designed for the Gen Z audience. Features a striking dark theme with electric lime accents, ultra-smooth Lenis scrolling, and sophisticated Framer Motion micro-animations throughout.
+A bold, premium energy drink landing page designed for ambitious individuals. Features a striking dark theme with electric lime accents, ultra-smooth Lenis scrolling, and sophisticated Framer Motion micro-animations throughout. Inspired by the strength and courage of the lion (Izem in Tamazight), this brand represents Algerian heritage and power.
 
 ### Key Features
 - **Lenis Smooth Scrolling** - Buttery smooth scroll experience with customized lerp and duration settings
@@ -16,14 +16,15 @@ A bold, premium energy drink landing page designed for the Gen Z audience. Featu
 - **Mobile-First Responsive** - Fully optimized for all screen sizes
 
 ### Design Highlights
-- Dark charcoal (#121212) background with electric lime (#AFFF00) accents
+- Dark charcoal (#121212) background with electric lime (#84cc16) accents
 - Compressed bold typography for headlines with monospace tech specs
 - Premium energy drink brand hierarchy and UX patterns
 - Compact, modern layout with intentional white space
+- Algerian-inspired design elements and cultural references
 
 ### Sections Included
 1. Hero with parallax product image and animated badges
-2. Flavor carousel with actual product imagery
+2. Flavor carousel showcasing Algerian-inspired flavors
 3. Formula & Benefits bento grid
 4. Brand activations cards
 5. Instagram social feed section
@@ -38,7 +39,7 @@ A bold, premium energy drink landing page designed for the Gen Z audience. Featu
 
 ## Tags
 ```
-energy-drink, landing-page, gen-z, dark-theme, framer-motion, lenis-scroll, smooth-scroll, micro-animations, glassmorphism, bento-grid, product-showcase, beverage, lifestyle-brand, premium, modern, interactive, parallax, 3d-effects, responsive, mobile-first, nextjs, tailwindcss, typescript, e-commerce, cpg, consumer-goods, marketing-site, brand-website
+energy-drink, landing-page, algerian-brand, dark-theme, framer-motion, lenis-scroll, smooth-scroll, micro-animations, glassmorphism, bento-grid, product-showcase, beverage, lifestyle-brand, premium, modern, interactive, parallax, 3d-effects, responsive, mobile-first, nextjs, tailwindcss, typescript, e-commerce, cpg, consumer-goods, marketing-site, brand-website
 ```
 
 ## Use Cases
@@ -46,7 +47,7 @@ energy-drink, landing-page, gen-z, dark-theme, framer-motion, lenis-scroll, smoo
 - CPG (Consumer Packaged Goods) product launches
 - Lifestyle and wellness brand landing pages
 - Product showcase templates
-- Gen Z targeted marketing campaigns
+- Algerian and North African market targeted campaigns
 
 ## Customization
 Easily swap product images, colors, and copy to match your brand. The modular component structure allows for quick adaptation to any beverage or lifestyle product.

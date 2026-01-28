@@ -8,13 +8,13 @@ const activations = [
   {
     icon: Sparkles,
     title: "Free Tasting Events",
-    description: "Experience GiGi at exclusive tasting events near you.",
+    description: "Experience IZEM at exclusive tasting events near you.",
     cta: "Find Events",
   },
   {
     icon: Dumbbell,
     title: "Gyms & Studios",
-    description: "Partner with us to fuel your fitness community.",
+    description: "Fuel your fitness community with IZEM energy.",
     cta: "Partner With Us",
   },
   {
@@ -26,7 +26,7 @@ const activations = [
   {
     icon: Calendar,
     title: "Event Organizers",
-    description: "Sponsor your next event with GiGi energy.",
+    description: "Sponsor your next event with IZEM energy.",
     cta: "Sponsor Event",
   },
 ]
@@ -90,13 +90,13 @@ export function ActivationsSection() {
               EXPERIENCE{" "}
             </motion.span>
             <motion.span
-              className="text-[#AFFF00] inline-block"
+              className="text-[#84cc16] inline-block"
               initial={{ y: 100 }}
               whileInView={{ y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1], delay: 0.3 }}
             >
-              GIGI
+              IZEM
             </motion.span>
           </h2>
           <motion.p
@@ -106,7 +106,7 @@ export function ActivationsSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            From tasting events to corporate partnerships, bring GiGi into your world.
+            From tasting events to corporate partnerships, bring IZEM into your world.
           </motion.p>
         </motion.div>
 
@@ -129,17 +129,17 @@ export function ActivationsSection() {
               className="group bg-[#121212] rounded-2xl p-6 cursor-pointer relative overflow-hidden"
             >
               <motion.div
-                className="absolute inset-0 bg-[#AFFF00]/0 group-hover:bg-[#AFFF00]"
+                className="absolute inset-0 bg-[#84cc16]/0 group-hover:bg-[#84cc16]"
                 transition={{ duration: 0.4 }}
               />
 
               <div className="relative z-10">
                 <motion.div
-                  className="w-11 h-11 rounded-xl bg-[#AFFF00] flex items-center justify-center mb-4 group-hover:bg-[#121212] transition-colors duration-300"
+                  className="w-11 h-11 rounded-xl bg-[#84cc16] flex items-center justify-center mb-4 group-hover:bg-[#121212] transition-colors duration-300"
                   whileHover={{ rotate: 10, scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}
                 >
-                  <activation.icon className="w-5 h-5 text-[#121212] group-hover:text-[#AFFF00] transition-colors duration-300" />
+                  <activation.icon className="w-5 h-5 text-[#121212] group-hover:text-[#84cc16] transition-colors duration-300" />
                 </motion.div>
 
                 <h3 className="text-lg font-black text-white group-hover:text-[#121212] tracking-tight mb-2 transition-colors duration-300">
@@ -150,7 +150,7 @@ export function ActivationsSection() {
                 </p>
 
                 <motion.button
-                  className="flex items-center gap-2 text-[#AFFF00] group-hover:text-[#121212] font-bold text-xs tracking-wide transition-colors duration-300"
+                  className="flex items-center gap-2 text-[#84cc16] group-hover:text-[#121212] font-bold text-xs tracking-wide transition-colors duration-300"
                   whileHover={{ x: 4 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}
                 >

@@ -17,14 +17,14 @@ const _jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "GiGi Energy Drink | Dream Big, Drink GiGi",
-  description: "Zero sugar, 75mg caffeine, 100% natural flavors. The energy drink for dreamers and doers.",
-  keywords: ["energy drink", "zero sugar", "natural energy", "GiGi", "caffeine"],
+  title: "IZEM Energy Drink | Unleash Your Inner Lion",
+  description: "Zero sugar, 75mg caffeine, 100% natural ingredients. The energy drink for ambitious champions.",
+  keywords: ["energy drink", "zero sugar", "natural energy", "IZEM", "caffeine", "algerian brand"],
     generator: 'v0.app'
 }
 
 export const viewport: Viewport = {
-  themeColor: "#AFFF00",
+  themeColor: "#84cc16",
 }
 
 export default function RootLayout({
@@ -36,7 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans antialiased`}>
         <ClickSpark
-          sparkColor="#AFFF00"
+          sparkColor="#84cc16"
           sparkSize={12}
           sparkRadius={20}
           sparkCount={8}

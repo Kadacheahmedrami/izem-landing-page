@@ -74,7 +74,7 @@ export function LifestyleSection() {
           className="text-center mb-16"
         >
           <motion.span
-            className="font-mono text-[#AFFF00] text-sm tracking-widest inline-block"
+            className="font-mono text-[#84cc16] text-sm tracking-widest inline-block"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -93,7 +93,7 @@ export function LifestyleSection() {
               GIGI ON THE{" "}
             </motion.span>
             <motion.span
-              className="text-[#AFFF00] inline-block"
+              className="text-[#84cc16] inline-block"
               initial={{ y: 100 }}
               whileInView={{ y: 0 }}
               viewport={{ once: true }}
@@ -135,7 +135,7 @@ export function LifestyleSection() {
                   transition={{ duration: 0.6 }}
                 />
                 <motion.div
-                  className="absolute inset-0 bg-[#AFFF00]/0 group-hover:bg-[#AFFF00]/20"
+                  className="absolute inset-0 bg-[#84cc16]/0 group-hover:bg-[#84cc16]/20"
                   initial={{ opacity: 0 }}
                   whileHover={{ opacity: 1 }}
                   transition={{ duration: 0.4 }}
@@ -165,18 +165,18 @@ export function LifestyleSection() {
             >
               <div className="flex items-center gap-3 mb-4">
                 <motion.div
-                  className="w-10 h-10 rounded-full bg-[#AFFF00]/20 flex items-center justify-center"
+                  className="w-10 h-10 rounded-full bg-[#84cc16]/20 flex items-center justify-center"
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}
                 >
-                  <span className="text-[#AFFF00] font-bold text-sm">{post.handle.charAt(1).toUpperCase()}</span>
+                  <span className="text-[#84cc16] font-bold text-sm">{post.handle.charAt(1).toUpperCase()}</span>
                 </motion.div>
                 <span className="font-mono text-white/60 text-sm">{post.handle}</span>
               </div>
               <p className="text-white text-lg leading-relaxed">{post.text}</p>
               <motion.div
                 className="flex items-center gap-2 mt-4 text-white/40 font-mono text-sm"
-                whileHover={{ color: "#AFFF00" }}
+                whileHover={{ color: "#84cc16" }}
                 transition={{ duration: 0.2 }}
               >
                 <motion.svg

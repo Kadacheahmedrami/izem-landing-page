@@ -17,7 +17,7 @@ The website showcases an energy drink brand with zero sugar, 75mg caffeine, and 
 - Lucide React icons
 
 ### Design Features
-- Dark charcoal background (#121212) with electric lime (#AFFF00) accents
+- Dark charcoal background (#121212) with electric lime (#84cc16) accents
 - Premium energy drink brand hierarchy and UX patterns
 - Custom animations including floating, pulsing, and marquee effects
 - Glassmorphism navigation with blur backdrop
@@ -136,7 +136,7 @@ product-page/
 
 ### Color System
 The project uses OKLCH color space for accessible color definitions:
-- `--lime: oklch(0.92 0.2 128)` (#AFFF00 - brand accent)
+- `--lime: oklch(0.92 0.2 128)` (#84cc16 - brand accent)
 - `--charcoal: oklch(0.145 0 0)` (#121212 - dark background)
 - `--pineapple: oklch(0.9 0.15 90)`
 - `--coconut: oklch(0.95 0.03 90)`
@@ -162,3 +162,10 @@ The GiGi Energy Drink brand focuses on:
 - Clean, sustainable energy
 
 The tagline "Dream Big, Drink GiGi" reflects the aspirational nature of the brand.
+
+## Flavors
+
+GiGi Energy Drink comes in three distinctive flavors:
+- Original Boost: Classic Energy with green (#84cc16) accents
+- Pastique Fraise: Berry Bliss with red (#ef4444) accents
+- Mystery: Coming Soon with electric lime (#AFFF00) accents

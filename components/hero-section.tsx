@@ -63,10 +63,10 @@ export function HeroSection() {
       className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-white noise-overlay"
     >
       {/* Subtle gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white via-[#AFFF00]/5 to-white" />
+      <div className="absolute inset-0 bg-gradient-to-br from-white via-[#84cc16]/5 to-white" />
 
       <motion.div
-        className="absolute top-20 left-10 w-24 h-24 rounded-full bg-[#AFFF00]/20 blur-3xl"
+        className="absolute top-20 left-10 w-24 h-24 rounded-full bg-[#84cc16]/20 blur-3xl"
         animate={{
           x: [0, 30, 0],
           y: [0, -20, 0],
@@ -75,7 +75,7 @@ export function HeroSection() {
         transition={{ duration: 8, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
       />
       <motion.div
-        className="absolute bottom-40 right-20 w-32 h-32 rounded-full bg-[#AFFF00]/10 blur-3xl"
+        className="absolute bottom-40 right-20 w-32 h-32 rounded-full bg-[#84cc16]/10 blur-3xl"
         animate={{
           x: [0, -40, 0],
           y: [0, 30, 0],
@@ -96,11 +96,11 @@ export function HeroSection() {
               className="inline-flex items-center gap-2 bg-[#121212] text-white px-3 py-1.5 rounded-full text-xs font-mono tracking-wider"
             >
               <motion.span
-                className="w-2 h-2 bg-[#AFFF00] rounded-full"
+                className="w-2 h-2 bg-[#84cc16] rounded-full"
                 animate={{ scale: [1, 1.2, 1], opacity: [1, 0.7, 1] }}
                 transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
               />
-              BETTER-FOR-YOU ENERGY DRINK
+              ALGERIAN POWER FUEL
             </motion.div>
 
             <div className="space-y-1 overflow-hidden">
@@ -115,7 +115,7 @@ export function HeroSection() {
                   custom={1}
                   className="inline-block"
                 >
-                  FUEL YOUR
+                  UNLEASH YOUR
                 </motion.span>
               </motion.h1>
               <motion.h1
@@ -127,9 +127,9 @@ export function HeroSection() {
                   initial="hidden"
                   animate="visible"
                   custom={2}
-                  className="inline-block text-[#AFFF00]"
+                  className="inline-block text-[#84cc16]"
                 >
-                  AMBITION
+                  INNER LION
                 </motion.span>
               </motion.h1>
               <motion.p
@@ -139,7 +139,7 @@ export function HeroSection() {
                 custom={3}
                 className="text-lg md:text-xl font-mono text-[#121212]/60 tracking-tight pt-2 max-w-md"
               >
-                Zero sugar. Natural flavors. Clean energy that hits different.
+                Zero sugar. Natural ingredients. Clean energy for champions.
               </motion.p>
             </div>
 
@@ -151,7 +151,7 @@ export function HeroSection() {
               className="flex flex-wrap gap-3 pt-2"
             >
               <motion.button
-                className="bg-[#AFFF00] text-[#121212] px-6 py-3 rounded-full font-bold text-sm tracking-wide flex items-center gap-2 group relative overflow-hidden"
+                className="bg-[#84cc16] text-[#121212] px-6 py-3 rounded-full font-bold text-sm tracking-wide flex items-center gap-2 group relative overflow-hidden"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -180,7 +180,7 @@ export function HeroSection() {
                 whileTap={{ scale: 0.98 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
-                Explore Flavours
+                Explore Flavors
               </motion.button>
             </motion.div>
 
@@ -191,7 +191,7 @@ export function HeroSection() {
               custom={5}
               className="flex flex-wrap gap-4 pt-2"
             >
-              {["Zero Sugar", "75mg Caffeine", "Natural Flavours", "Vitamin B Rich"].map((benefit, i) => (
+              {["Zero Sugar", "75mg Caffeine", "Natural Ingredients", "Vitamin B Complex"].map((benefit, i) => (
                 <motion.div
                   key={benefit}
                   className="flex items-center gap-2 text-xs font-mono text-[#121212]/60"
@@ -199,7 +199,7 @@ export function HeroSection() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.8 + i * 0.1 }}
                 >
-                  <div className="w-1.5 h-1.5 bg-[#AFFF00] rounded-full" />
+                  <div className="w-1.5 h-1.5 bg-[#84cc16] rounded-full" />
                   {benefit}
                 </motion.div>
               ))}
@@ -230,10 +230,10 @@ export function HeroSection() {
               >
                 <Image
                   src="/images/drink2.png"
-                  alt="GiGi Energy Drink - Lemon Lime Flavour"
+                  alt="IZEM Energy Drink - Premium Flavor"
                   width={450}
                   height={1200}
-                  className="relative z-10 drop-shadow-2xl"
+                  className="relative scale-120 z-10 drop-shadow-2xl"
                   priority
                 />
               </motion.div>

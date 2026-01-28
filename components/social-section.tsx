@@ -54,7 +54,7 @@ export function SocialSection() {
           className="text-center mb-10"
         >
           <motion.span
-            className="font-mono text-[#AFFF00] text-xs tracking-widest inline-block"
+            className="font-mono text-[#84cc16] text-xs tracking-widest inline-block"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -70,16 +70,16 @@ export function SocialSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1], delay: 0.2 }}
             >
-              @GIGIENERGY
+              @IZEMENERGY
             </motion.span>
             <motion.span
-              className="text-[#AFFF00] inline-block"
+              className="text-[#84cc16] inline-block"
               initial={{ y: 100 }}
               whileInView={{ y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1], delay: 0.3 }}
             >
-              .IN
+              .AL
             </motion.span>
           </h2>
         </motion.div>
@@ -109,7 +109,7 @@ export function SocialSection() {
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
               />
               <motion.div
-                className="absolute inset-0 bg-[#AFFF00]/0 group-hover:bg-[#AFFF00]/20 flex items-center justify-center"
+                className="absolute inset-0 bg-[#84cc16]/0 group-hover:bg-[#84cc16]/20 flex items-center justify-center"
                 initial={{ opacity: 0 }}
                 whileHover={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}
@@ -137,10 +137,10 @@ export function SocialSection() {
           transition={{ delay: 0.5 }}
         >
           <motion.a
-            href="https://instagram.com/gigienergy.in"
+            href="https://www.instagram.com/izemenergy_by_ifri"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-[#AFFF00] text-[#121212] px-6 py-3 rounded-full font-bold text-sm tracking-wide relative overflow-hidden group"
+            className="flex items-center gap-2 bg-[#84cc16] text-[#121212] px-6 py-3 rounded-full font-bold text-sm tracking-wide relative overflow-hidden group"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -151,7 +151,7 @@ export function SocialSection() {
               transition={{ duration: 0.6 }}
             />
             <Instagram className="w-4 h-4 relative z-10" />
-            <span className="relative z-10">Follow @gigienergy.in</span>
+            <span className="relative z-10">Follow @izemenergy_by_ifri</span>
           </motion.a>
         </motion.div>
       </div>

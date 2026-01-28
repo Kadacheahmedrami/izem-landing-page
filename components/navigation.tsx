@@ -62,7 +62,7 @@ export function Navigation() {
 
   const navLinks = [
     { label: "Home", href: "#hero" },
-    { label: "Flavours", href: "#flavours" },
+    { label: "Flavors", href: "#flavours" },
     { label: "Creators", href: "#creators" },
     { label: "Distributors", href: "#distributors" },
     { label: "Careers", href: "#careers" },
@@ -84,17 +84,17 @@ export function Navigation() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
-            <span className={scrolled ? "text-white" : "text-[#121212]"}>Gi</span>
+            <span className={scrolled ? "text-white" : "text-[#121212]"}>IZ</span>
             <motion.span
-              className="text-[#AFFF00]"
+              className="text-[#84cc16]"
               animate={{
                 textShadow: scrolled
-                  ? ["0 0 10px rgba(175,255,0,0.5)", "0 0 20px rgba(175,255,0,0.8)", "0 0 10px rgba(175,255,0,0.5)"]
+                  ? ["0 0 10px rgba(255,107,107,0.5)", "0 0 20px rgba(255,107,107,0.8)", "0 0 10px rgba(255,107,107,0.5)"]
                   : "none",
               }}
               transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
             >
-              Gi
+              EM
             </motion.span>
           </motion.span>
         </Link>
@@ -105,7 +105,7 @@ export function Navigation() {
               key={item.label}
               onClick={() => scrollToSection(item.href)}
               className={`text-sm font-medium tracking-wide transition-colors relative ${
-                scrolled ? "text-white/80 hover:text-[#AFFF00]" : "text-[#121212]/80 hover:text-[#121212]"
+                scrolled ? "text-white/80 hover:text-[#84cc16]" : "text-[#121212]/80 hover:text-[#121212]"
               }`}
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -115,7 +115,7 @@ export function Navigation() {
             >
               {item.label}
               <motion.span
-                className="absolute -bottom-1 left-0 w-full h-0.5 bg-[#AFFF00] origin-left"
+                className="absolute -bottom-1 left-0 w-full h-0.5 bg-[#84cc16] origin-left"
                 initial={{ scaleX: 0 }}
                 whileHover={{ scaleX: 1 }}
                 transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
@@ -125,7 +125,7 @@ export function Navigation() {
         </div>
 
         <motion.button
-          className="hidden md:block bg-[#AFFF00] text-[#121212] px-6 py-2.5 rounded-full font-bold text-sm tracking-wide relative overflow-hidden"
+          className="hidden md:block bg-[#84cc16] text-[#121212] px-6 py-2.5 rounded-full font-bold text-sm tracking-wide relative overflow-hidden"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -134,9 +134,9 @@ export function Navigation() {
             className="absolute inset-0 bg-white/30"
             animate={{
               boxShadow: [
-                "0 0 20px rgba(175,255,0,0.3)",
-                "0 0 40px rgba(175,255,0,0.6)",
-                "0 0 20px rgba(175,255,0,0.3)",
+                "0 0 20px rgba(255,107,107,0.3)",
+                "0 0 40px rgba(255,107,107,0.6)",
+                "0 0 20px rgba(255,107,107,0.3)",
               ],
             }}
             transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
@@ -194,7 +194,7 @@ export function Navigation() {
                 <motion.button
                   key={item.label}
                   onClick={() => scrollToSection(item.href)}
-                  className="block w-full text-left text-white/80 hover:text-[#AFFF00] text-lg font-medium py-2"
+                  className="block w-full text-left text-white/80 hover:text-[#84cc16] text-lg font-medium py-2"
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.1 }}
@@ -203,7 +203,7 @@ export function Navigation() {
                 </motion.button>
               ))}
               <motion.button
-                className="w-full bg-[#AFFF00] text-[#121212] px-6 py-3 rounded-full font-bold text-sm tracking-wide mt-4"
+                className="w-full bg-[#84cc16] text-[#121212] px-6 py-3 rounded-full font-bold text-sm tracking-wide mt-4"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}

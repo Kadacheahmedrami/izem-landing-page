@@ -43,11 +43,11 @@ export function Footer() {
   const footerLinks = [
     {
       title: "Products",
-      links: ["Lemon Lime", "Pineapple Coconut", "Mystery", "Bundles"],
+      links: ["Desert Storm", "Atlas Peak", "Mystery", "Bundles"],
     },
     {
       title: "Quick Links",
-      links: ["Home", "Flavours", "Creators", "Distributors"],
+      links: ["Home", "Flavors", "Creators", "Distributors"],
     },
     {
       title: "Company",
@@ -80,7 +80,7 @@ export function Footer() {
               READY TO
             </motion.span>
             <motion.span
-              className="block text-[#AFFF00]"
+              className="block text-[#84cc16]"
               initial={{ y: 100 }}
               whileInView={{ y: 0 }}
               viewport={{ once: true }}
@@ -105,16 +105,16 @@ export function Footer() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="your@email.com"
-                className="w-full bg-white/5 border-2 border-white/20 rounded-xl px-4 py-3 text-white placeholder:text-white/40 font-mono text-sm focus:outline-none focus:border-[#AFFF00] transition-all duration-300"
-                whileFocus={{ borderColor: "#AFFF00" }}
+                className="w-full bg-white/5 border-2 border-white/20 rounded-xl px-4 py-3 text-white placeholder:text-white/40 font-mono text-sm focus:outline-none focus:border-[#84cc16] transition-all duration-300"
+                whileFocus={{ borderColor: "#84cc16" }}
               />
               <motion.div
                 className="absolute inset-0 rounded-xl pointer-events-none"
-                animate={email.length > 0 ? { boxShadow: "0 0 20px rgba(175,255,0,0.2)" } : { boxShadow: "none" }}
+                animate={email.length > 0 ? { boxShadow: "0 0 20px rgba(255,107,107,0.2)" } : { boxShadow: "none" }}
               />
             </motion.div>
             <motion.button
-              className="bg-[#AFFF00] text-[#121212] px-6 py-3 rounded-xl font-bold text-sm tracking-wide whitespace-nowrap relative overflow-hidden"
+              className="bg-[#84cc16] text-[#121212] px-6 py-3 rounded-xl font-bold text-sm tracking-wide whitespace-nowrap relative overflow-hidden"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -154,8 +154,8 @@ export function Footer() {
           transition={{ delay: 0.3 }}
         >
           <p className="text-white/60 font-mono text-xs max-w-xl mx-auto leading-relaxed">
-            GiGi Energy is a better-for-you energy drink crafted with natural flavors, zero sugar, and a clean energy
-            formula. Fuel your ambition without the crash.
+            IZEM Energy is an Algerian power fuel crafted with natural ingredients, zero sugar, and a clean energy
+            formula. Unleash your inner lion without the crash.
           </p>
         </motion.div>
 
@@ -174,7 +174,7 @@ export function Footer() {
                     <motion.div whileHover={{ x: 4 }} transition={{ type: "spring", stiffness: 400, damping: 17 }}>
                       <Link
                         href="#"
-                        className="text-white/60 hover:text-[#AFFF00] font-mono text-xs transition-colors inline-block"
+                        className="text-white/60 hover:text-[#84cc16] font-mono text-xs transition-colors inline-block"
                       >
                         {item}
                       </Link>
@@ -199,12 +199,12 @@ export function Footer() {
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
             <span className="text-xl font-black">
-              <span className="text-white">Gi</span>
-              <span className="text-[#AFFF00]">Gi</span>
+              <span className="text-white">IZ</span>
+              <span className="text-[#84cc16]">EM</span>
             </span>
           </motion.div>
 
-          <p className="text-white/40 font-mono text-xs">© 2026 GiGi Energy. All rights reserved.</p>
+          <p className="text-white/40 font-mono text-xs">© 2026 IZEM Energy. All rights reserved.</p>
 
           <motion.p
             className="text-white/30 font-mono text-xs cursor-pointer"
@@ -215,7 +215,7 @@ export function Footer() {
                 ? {
                     rotate: [0, -5, 5, -5, 5, 0],
                     scale: [1, 1.1, 1],
-                    color: "#AFFF00",
+                    color: "#84cc16",
                   }
                 : {
                     rotate: 0,
@@ -237,7 +237,7 @@ export function Footer() {
         viewport={{ once: true }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        GiGi
+        IZEM
       </motion.div>
     </footer>
   )

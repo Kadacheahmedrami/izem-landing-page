@@ -10,21 +10,21 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 const flavors = [
   {
     id: 1,
-    name: "Lemon Lime",
-    tagline: "Citrus Shock",
-    description: "A zesty explosion of natural lemon and lime that wakes you up instantly.",
-    image: "/images/drink2.png",
+    name: "Original Boost",
+    tagline: "Classic Energy",
+    description: "The iconic blend that started it all. A perfectly balanced mix of natural citrus and caffeine for clean, sustained energy.",
+    image: "/images/drink22.png",
     bgColor: "from-[#84cc16]/20 via-[#84cc16]/10 to-transparent",
     accentColor: "#84cc16",
   },
   {
     id: 2,
-    name: "Pineapple Coconut",
-    tagline: "Tropical Rush",
-    description: "Island vibes with every sip. Transport yourself to paradise.",
-    image: "/images/drink1.png",
-    bgColor: "from-[#f59e0b]/20 via-[#f59e0b]/10 to-transparent",
-    accentColor: "#f59e0b",
+    name: "Pastique Fraise",
+    tagline: "Berry Bliss",
+    description: "Creamy vanilla and sweet strawberry fusion. A delightful berry experience.",
+    image: "/images/drink11.png",
+    bgColor: "from-[#ef4444]/20 via-[#ef4444]/10 to-transparent",
+    accentColor: "#ef4444",
   },
   {
     id: 3,
@@ -191,7 +191,7 @@ export function FlavorCarousel() {
 
                   <div className="grid md:grid-cols-2 gap-6 items-center">
                     <motion.div
-                      className="relative scale-140 aspect-[3/4] flex items-center justify-center"
+                      className="relative aspect-[3/4] flex items-center justify-center"
                       whileHover={{ scale: 1.05 }}
                       transition={{ type: "spring", stiffness: 300, damping: 20 }}
                     >
@@ -249,7 +249,7 @@ export function FlavorCarousel() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.5 }}
                         >
-                          {["Zero Sugar", "Metabolism Boost", "Natural Flavours", "Vitamin Rich"].map((badge) => (
+                          {["Zero Sugar", "Clean Energy", "Natural Ingredients", "Vitamin B Complex"].map((badge) => (
                             <span
                               key={badge}
                               className="px-2 py-1 bg-[#121212]/5 rounded-full text-xs font-mono text-[#121212]/60"
