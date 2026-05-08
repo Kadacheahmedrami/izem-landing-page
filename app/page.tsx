@@ -11,10 +11,10 @@ export default function Home() {
     <main className="min-h-screen bg-background text-foreground">
       <Navigation />
       <HeroSection />
-      {/* <FlavorCarousel />
+       <FlavorCarousel />
       <BentoGrid />
       <ActivationsSection />
-      <SocialSection /> */}
+      <SocialSection /> 
       <Footer />
     </main>
   )
